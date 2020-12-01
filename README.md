@@ -1,4 +1,5 @@
 rtlwifi_new
+
 A repo for the newest Realtek rtlwifi codes.
 
 If your card is an RTL8822BE or RTL8822CE, then skip this part and read the instructions below.
@@ -10,6 +11,7 @@ Note: If your kernel is 4.17 or newer, AND your card is not an RTL8723DE, then y
 It includes the following drivers:
 
 rtl8192ce, rtl8192cu, rtl8192se, rtl8192de, rtl8188ee, rtl8192ee, rtl8723ae, rtl8723be, rtl8821ae, and rtl8723de. The rtl8723de is available ONLY in the extended branch, which is the recommended one.
+
 Installation instruction
 
 You can find <> using lspci | grep Wireless. Afterwards, execute the following lines of codes in your shell:
